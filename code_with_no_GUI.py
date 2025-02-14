@@ -12,7 +12,6 @@ while Game_state == True:
 
     random_choice = random.choice(random_list)
 
-    #print(random_choice)
 
     # Ask user to input their answer
 
