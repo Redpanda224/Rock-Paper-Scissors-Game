@@ -93,6 +93,8 @@ while Game_state == True:
         else:
             Game_state = False
 
+    # Draw
+
     elif player_input == random_choice:
         print('Draw')
         Game_state = False
@@ -103,6 +105,8 @@ while Game_state == True:
             Game_state = False
         else:
             Game_state = False
+
+    # Help message
 
     else:
         print('Please input ROCK, PAPER, or SCISSORS')
